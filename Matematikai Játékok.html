@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Matematikai Játékok</title>
+    <link rel="stylesheet" href="3. feladat/style/style.css">
+</head>
+<<body>
+    <header>
+        <img src="3. feladat/img/Banner.png" alt="Fejléc képe">
+    </header>
+    <h1 style="font-family: 'Lato', sans-serif;">Paralelogramma és String Kezelő</h1>
+    
+    <div id="parallelogram-calculator">
+        <h2>Paralelogramma Terület Számítás</h2>
+        <div>
+            <input type="number" id="side" placeholder="Oldal hossz">
+            <input type="number" id="height" placeholder="Magasság">
+            <button id="calculate-area-side-height">Terület (oldal és magasság)</button>
+        </div>
+        <div>
+            <input type="number" id="side1" placeholder="Oldal 1">
+            <input type="number" id="side2" placeholder="Oldal 2">
+            <input type="number" id="angle" placeholder="Szög (fok)">
+            <button id="calculate-area-sides-angle">Terület (2 oldal és szög)</button>
+        </div>
+    </div>
+
+    <div id="string-selector">
+        <h2>String Elemek Kiválasztása</h2>
+        <input type="text" id="user-string" placeholder="Írj be egy stringet">
+        <button id="select-elements">Elemek kiválasztása</button>
+        <p id="selected-elements"></p>
+    </div>
+
+    <div id="results">
+        <h2>Eredmények</h2>
+        <p id="parallelogram-result"></p>
+        <p id="string-result"></p>
+    </div>
+
+    <script src="3. feladat/script/script.js"></script>
+</body>
+</html>
